@@ -1,9 +1,42 @@
 ﻿@page "/search"
 
-<h3>Search</h3>
+<PageTitle>Search</PageTitle>
 
-<p>Search page coming soon!</p>
+<h1>Search Music</h1>
+
+<div class="mb-3">
+    <input class="form-control"
+           @bind="SearchTerm"
+           placeholder="Search for an artist, album, or track..." />
+</div>
+
+<button class="btn btn-primary"
+        @onclick="SearchMusic">
+    Search
+</button>
+
+<hr />
+
+<h3>Results</h3>
+
+@if (IsLoading)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <p>No results found.</p>
+}
 
 @code {
+
+    private string SearchTerm = string.Empty;
+
+    private bool IsLoading = false;
+
+    private void SearchMusic()
+    {
+        //search functtion after the API calls
+    }
 
 }
