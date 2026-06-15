@@ -1,6 +1,25 @@
 ﻿@inherits LayoutComponentBase
 
-@Body
+<header class="p-3 border-bottom">
+    <nav>
+        <NavLink href="/" class="me-3">
+            Home
+        </NavLink>
+
+        <NavLink href="/search">
+            Search
+        </NavLink>
+
+        <NavLink href="/random">
+            Random
+        </NavLink>
+
+    </nav>
+</header>
+
+<main class="container mt-3">
+    @Body
+</main>
 
 <div id="blazor-error-ui">
     An unhandled error has occurred.

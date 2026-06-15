@@ -5,6 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddScoped<DeezerService>();
+builder.Services.AddHttpClient();
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
@@ -12,7 +13,7 @@ builder.Services.AddRazorComponents()
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-builder.Services.AddHttpClient();
+
 if (app.Environment.IsDevelopment())
 {
     app.UseWebAssemblyDebugging();
