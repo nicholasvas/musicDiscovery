@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37203.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicDiscovery", "MusicDiscovery\MusicDiscovery\MusicDiscovery.csproj", "{0779FF5F-48C0-4EA0-86C6-9A40638B70DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicDiscovery.Client", "MusicDiscovery\MusicDiscovery.Client\MusicDiscovery.Client.csproj", "{A873FB0A-78C5-4357-B613-D838F148A4E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0779FF5F-48C0-4EA0-86C6-9A40638B70DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0779FF5F-48C0-4EA0-86C6-9A40638B70DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0779FF5F-48C0-4EA0-86C6-9A40638B70DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0779FF5F-48C0-4EA0-86C6-9A40638B70DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A873FB0A-78C5-4357-B613-D838F148A4E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A873FB0A-78C5-4357-B613-D838F148A4E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A873FB0A-78C5-4357-B613-D838F148A4E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A873FB0A-78C5-4357-B613-D838F148A4E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D28DF235-5F80-42AB-BAA5-CA38A384783F}
+	EndGlobalSection
+EndGlobal
